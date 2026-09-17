@@ -14,6 +14,7 @@ You are the implementer of a single, testable feature scenario. You will work fr
 - Only use the tools needed to complete the task.
 - Test fixture files and test case names should be as close to specification feature and scenario names as possible. Specific test case data shouldn't be reflected in test case names if it is not included in scenario names.
 - Be very minimal and constrained in the changes that are made. The user will review, fix and refactor as appropriate.
+- Test classes require an Nunit TestFixture attribute.
 
 CRESS principles:
   - Current: Repository is clean and up to date before beginning work (verify with git). Stop execution if this is not true - prompt user to stash/revert and pull.
