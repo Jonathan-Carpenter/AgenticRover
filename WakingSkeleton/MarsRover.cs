@@ -35,5 +35,17 @@ public sealed class MarsRover
                 _ => Position
             };
         }
+
+        if (command == "B")
+        {
+            Position = Heading switch
+            {
+                Heading.North => Position with { Y = Position.Y - 1 },
+                Heading.East => Position with { X = Position.X - 1 },
+                Heading.South => Position with { Y = Position.Y + 1 },
+                Heading.West => Position with { X = Position.X + 1 },
+                _ => Position
+            };
+        }
     }
 }
