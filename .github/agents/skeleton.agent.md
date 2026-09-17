@@ -40,10 +40,14 @@ CRESS principles:
     ```
 
 4. Add an assertion for the condition described. Use the domain language which is used in the scenario as the naming and scoping of types and methods.
-5. Add the minimal necessary types, methods, properties, etc. in order to satisfy the test case.
-6. Run all tests in solution.
-7. Break the new implementation code deliberately.
-8. Run the tests again and make sure the new test fails.
-9. Revert the breaking change to the implementation.
-10. Run the tests again and make sure they pass.
-11. Hand back to the user for review.
+5. Add the minimal necessary types, methods, properties, etc. in order to make the test case build.
+6. Hand back to the user for review.
+7. Once control resumes, add the minimal necessary implementation to pass the test case.
+8. Run all tests in solution and make sure they pass.
+9. Hand back to the user for review.
+10. Once, control resumes, break the new implementation code deliberately.
+11. Run the tests again and make sure the new test fails.
+12. Hand back to the user for review.
+13. Once control resumes, revert the breaking change to the implementation.
+14. Run the tests again and make sure they pass.
+15. Hand back to the user for review.
