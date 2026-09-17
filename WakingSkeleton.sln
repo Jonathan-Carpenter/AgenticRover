@@ -1,5 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakingSkeleton", "WakingSkeleton\WakingSkeleton.csproj", "{310FA7FD-2B5A-4383-8A18-F0B5B46462D9}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakingSkeleton.Test", "WakingSkeleton.Test\WakingSkeleton.Test.csproj", "{D53C043A-780C-4635-877E-5929E3280A41}"
 EndProject
 Global
@@ -8,6 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{310FA7FD-2B5A-4383-8A18-F0B5B46462D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310FA7FD-2B5A-4383-8A18-F0B5B46462D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310FA7FD-2B5A-4383-8A18-F0B5B46462D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310FA7FD-2B5A-4383-8A18-F0B5B46462D9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D53C043A-780C-4635-877E-5929E3280A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D53C043A-780C-4635-877E-5929E3280A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53C043A-780C-4635-877E-5929E3280A41}.Release|Any CPU.ActiveCfg = Release|Any CPU

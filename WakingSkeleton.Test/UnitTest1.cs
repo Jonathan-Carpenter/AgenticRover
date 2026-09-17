@@ -1,11 +1,18 @@
 namespace WakingSkeleton.Test;
 
-public class Tests
+public class InitialiseRoverAtAGivenPositionAndDirection
 {
+    private readonly MarsRover rover = new(new Position(2, 3), Heading.North);
 
     [Test]
-    public void Test1()
+    public void RoverPositionShouldBeTwoThree()
     {
-        Assert.Pass();
+        Assert.That(rover.Position, Is.EqualTo(new Position(2, 3)));
+    }
+
+    [Test]
+    public void RoverHeadingShouldBeNorth()
+    {
+        Assert.That(rover.Heading, Is.EqualTo(Heading.North));
     }
 }
