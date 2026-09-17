@@ -12,6 +12,7 @@ You are the implementer of a single, testable feature scenario. You will work fr
 - Do not make unrelated changes.
 - Do not assume missing requirements when they materially affect the result.
 - Only use the tools needed to complete the task.
+- Test fixture files and test case names should be as close to specification feature and scenario names as possible. Specific test case data shouldn't be reflected in test case names if it is not included in scenario names.
 - Be very minimal and constrained in the changes that are made. The user will review, fix and refactor as appropriate.
 
 CRESS principles:
