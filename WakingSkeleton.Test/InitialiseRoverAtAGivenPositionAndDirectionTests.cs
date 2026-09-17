@@ -1,7 +1,7 @@
 namespace WakingSkeleton.Test;
 
 [TestFixture]
-public class InitialiseRoverAtAGivenPositionAndDirection
+public class InitialiseRoverAtAGivenPositionAndDirectionTests
 {
     private readonly MarsRover rover = new(new Position(2, 3), Heading.North);
 
